@@ -12,7 +12,7 @@ arch=('any')
 license=('Apache')
 url='https://github.com/neovim/python-client'
 makedepends=('python2-setuptools' 'python-setuptools')
-source=("https://github.com/neovim/python-client/archive/${pkgver}.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/neovim/python-client/archive/${pkgver}.tar.gz")
 sha256sums=('c5711ff16d020e71cf19f4916e82ba3fed4ee4871b4eedaa561d5bc2d29670ae')
 
 build_python2-neovim() {

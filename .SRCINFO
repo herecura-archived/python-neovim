@@ -6,7 +6,7 @@ pkgbase = python-neovim
 	license = Apache
 	makedepends = python2-setuptools
 	makedepends = python-setuptools
-	source = https://github.com/neovim/python-client/archive/0.0.38.tar.gz
+	source = python2-neovim-0.0.38.tar.gz::https://github.com/neovim/python-client/archive/0.0.38.tar.gz
 	sha256sums = c5711ff16d020e71cf19f4916e82ba3fed4ee4871b4eedaa561d5bc2d29670ae
 
 pkgname = python2-neovim
