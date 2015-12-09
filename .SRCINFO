@@ -1,13 +1,13 @@
 pkgbase = python-neovim
-	pkgver = 0.0.38
+	pkgver = 0.1.0
 	pkgrel = 1
 	url = https://github.com/neovim/python-client
 	arch = any
 	license = Apache
 	makedepends = python2-setuptools
 	makedepends = python-setuptools
-	source = python2-neovim-0.0.38.tar.gz::https://github.com/neovim/python-client/archive/0.0.38.tar.gz
-	sha256sums = c5711ff16d020e71cf19f4916e82ba3fed4ee4871b4eedaa561d5bc2d29670ae
+	source = python2-neovim-0.1.0.tar.gz::https://github.com/neovim/python-client/archive/0.1.0.tar.gz
+	sha256sums = 2a9a1f07bd6d5617b1b85ee1772feed9aabd1f7a6ddb24664a48896c7db6121a
 
 pkgname = python2-neovim
 	pkgdesc = Adds support for Python 2 plugins to Neovim.
@@ -26,6 +26,6 @@ pkgname = python-neovim
 	depends = python
 	depends = python-msgpack
 	depends = python-greenlet
-	provides = python3-neovim=0.0.38
+	provides = python3-neovim=0.1.0
 	conflicts = python3-neovim
 
