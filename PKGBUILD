@@ -6,14 +6,14 @@
 
 pkgbase=python-neovim
 pkgname=(python2-neovim python-neovim)
-pkgver=0.1.1
+pkgver=0.1.2
 pkgrel=1
 arch=('any')
 license=('Apache')
 url='https://github.com/neovim/python-client'
 makedepends=('python2-setuptools' 'python-setuptools')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/neovim/python-client/archive/${pkgver}.tar.gz")
-sha256sums=('146ae88fc0d3e2308fd8836f1416e2a60ed1fc60f3a84c67f8514f59df1cd731')
+sha256sums=('2d85a493194b5dfbc08cad1fd2e252f7ad35b65eb826dd61f67f4fecfc8476b2')
 
 build_python2-neovim() {
   cd "${srcdir}/python-client-${pkgver}"
